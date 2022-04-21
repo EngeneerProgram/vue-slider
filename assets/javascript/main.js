@@ -55,9 +55,8 @@ const app = new Vue(
             prew(){
                 console.log(this.prew);
                 this.active_images--
-                if(this.active_images == 0){
-                    console.log("siamo in svezia");
-                }
+                
+               
                 
             },
             next(){
@@ -67,5 +66,9 @@ const app = new Vue(
             
         }
     }
+    
 )
+
+
+
 

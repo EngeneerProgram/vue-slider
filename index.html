@@ -13,7 +13,7 @@
             <div class="banner">
                 <img :src="place[active_images].image" class="img_banner" alt="">
                 <div class="details">
-                    <h3 v-for="item in place">{{item.title}}</h3>
+                    <h3 ></h3>
                 </div>
             </div>
             <div class="list_place">
@@ -26,7 +26,7 @@
                 <img :src="place.images[2]" alt="">
                 <img :src="place.images[3]" alt="">
                 <img :src="place.images[4]" alt=""> -->
-             <img v-for="(item, index) in place " :src="item.image" alt="">
+             <img v-for="(item, index) in place " :class="active_images === index ? 'active' : ''"  :src="item.image" alt="">
                 
             </div>
         </div>

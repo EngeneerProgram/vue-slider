@@ -9,7 +9,7 @@ body{
 .container{
     display:flex;
     max-width: 1140px;
-    margin:10rem auto;
+    margin:5rem auto;
     
     
     border-radius: 10px;
@@ -43,6 +43,8 @@ img{
     display:flex;
     flex-direction: column;
 }
+
+
 
 .arrow_direction{
     position: absolute;
@@ -86,4 +88,9 @@ img{
 
 .img_banner{
 
+}
+
+
+.active{
+    border:5px solid rgb(131, 125, 125);
 }
